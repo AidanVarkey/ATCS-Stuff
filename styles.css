@@ -1,0 +1,51 @@
+.wrapper{
+    background-color: burlywood;
+    padding: 5px;
+}
+
+#yo-yo{
+    font-size: 50px; 
+    text-align: center; 
+    background-color: bisque;
+    padding: 20px;
+}
+
+.list-item{
+    color: red;
+}
+
+div{
+    justify-content: center;
+    align-items: center;
+}
+
+#grandparent{
+    width: 140px;
+    height: 140px;
+    background-color: red;
+    display: flex;
+}
+
+#parent{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+#child{
+    display: flex;
+    width: 60px;
+    height: 60px;
+    background-color: green;
+}
+
+#Button{
+    font-size: 30px;
+}
+#myAddButton{
+    font-size: 30px;
+}
+#myRemoveButton{
+    font-size: 30px;
+}
