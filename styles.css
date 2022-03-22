@@ -1,0 +1,33 @@
+#yo-yo{
+    background-color: blanchedalmond;
+    text-align: center;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+#navigation{
+    background: #ccc;
+    color: black;
+}
+#navigation ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#navigation li{
+    display: inline;
+    padding: 100px 120px;
+}
+#navigation a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+#navigation li:hover{
+    background: grey;
+}
+
