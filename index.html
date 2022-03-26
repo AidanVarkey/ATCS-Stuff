@@ -6,33 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aidan's Resume Website</title>
     <link rel = "stylesheet" href="./CSS/styles.css">
+    <!-- BOXICONS -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <div class="heading">
-        <div class = "container">
-            <div class="logo">
-                <a href="#">Aidan's Resume</a>
+    <!-- HEADER -->
+    <header class="first-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav_logo">Varkey</a>
             </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="wordle.html">WORDLE</a></li>
-                    <li><a href="#">TO DO LIST</a></li>
-                    <li><a href="#">IMPORTANT</a></li>
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#" class="nav_link active">Home</a></li>
+                    <li class="nav_item"><a href="#" class="nav_link">About Me</a></li>
+                    <li class="nav_item"><a href="#" class="nav_link">Works</a></li>
+                    <li class="nav_item"><a href="#" class="nav_link">Abilities</a></li>
+                    <li class="nav_item"><a href="#" class="nav_link">Contact</a></li>
                 </ul>
             </div>
-            <div class="contact-info">
-                <ul>
-                    <li><a href="#">contact info</a></li>
-                </ul>
+
+            <div class="nav_toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
             </div>
-        </div>
-    </div>
+        </nav>
+    </header>
 
+    <main class="1-main">
+        <!-- HOME  -->
+        <section class="home bd-grid" id="home">
+            <div class="home_data">
+                <h1 class="home_title">Hey Guy <br> I'm <span class="home_title-color">Aidan</span><br>Ranked Iron IV on League of Legends</h1>
+                <a href="#" class="button">Contact</a>
+            </div>
+            <div class="home_social">
+                <!-- put github and link to league stats -->
+                <a href="#" class="home_social-icon"></a>
+                <a href="#" class="home_social-icon"></a>
+            </div>
 
+            <div class="home_img">
+                <!-- insert image -->
+            </div>
+        </section>
+
+        <!-- ABOUT ME  -->
+        <section class="about section" id="about">
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about_container bd-grid">
+                <div class="about_img">
+                    <!-- insert image  -->
+                </div>
+                <div>
+                    <h2 class="about_subtitle">I'm Aidan</h2>
+                    <p class="about_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis alias officiis, harum, sit eos fugit necessitatibus illum repellat voluptatibus delectus porro sed quas reiciendis, ratione dolorum doloremque dicta quidem quasi distinctio maxime exercitationem culpa numquam. Explicabo iusto expedita aspernatur impedit nesciunt repellendus, eos itaque perferendis dolor nemo quisquam corporis beatae eveniet ad numquam culpa totam libero optio incidunt in enim? Ut aliquam iure quaerat veritatis reprehenderit voluptatem iusto molestiae voluptate corporis nihil distinctio recusandae fugit dicta laboriosam harum nesciunt laborum molestias, impedit eum eos, atque aspernatur magni ea qui! Nesciunt quasi nobis eaque distinctio quia reprehenderit consectetur neque similique, magni sequi expedita impedit sapiente et possimus inventore error animi! Ad laudantium cumque dicta sunt iste ratione provident maiores hic quos modi fugit sed quae rerum optio minus, maxime nobis alias atque itaque asperiores eveniet? Minima esse amet dolorem, quia quibusdam repudiandae. Laudantium nostrum adipisci quod, dignissimos illo harum necessitatibus soluta vero, eum quam ducimus corrupti! Expedita aliquid autem sit quam cumque consectetur ipsa et earum veritatis nisi repellendus placeat, minima impedit officiis exercitationem excepturi possimus dignissimos eius consequuntur temporibus porro deleniti! Magnam facere perferendis laudantium libero dignissimos voluptatibus impedit minus vel? Error provident esse tempore veniam sequi vero eveniet quaerat!</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <!-- FOOTER  -->
+
+    <!-- MAIN JAVASCRIPT STUFF -->
     <script src="main.js"></script>
-
-
-    
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
 </body>
 </html>
